@@ -2,6 +2,15 @@
 
 盲水印 by python
 
+### Fork 改动
+
+* 添加 tkinter 版本
+
+```sh
+# Environment Python3.11.9-win10-64bit
+nuitka --standalone --onefile --enable-plugin=tk-inter --windows-console-mode=disable .\bwmtkinter.py
+```
+
 ### 文件说明
 
 * bwm.py 程序文件python2版本
